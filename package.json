@@ -1,14 +1,16 @@
 {
   "name": "three-demo",
   "version": "0.0.0",
+  "homepage": "http://shamika-tissera.github.io/shamika-tissera.github.io",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "predeploy" : "npm run build",
-"deploy" : "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "vite": "^2.3.0"
   },
   "dependencies": {
